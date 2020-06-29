@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(226, 230, 231);
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+    margin: 30px 0 50px;
+}
+
+.input {
+    display: inline-block;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(240, 244, 246);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.photo-gallery img {
+    margin: 10px;
+    padding: 10px;
+}
+
+.photo-gallery .thumbnail {
+    transition: .5s;
+}
+
+.photo-gallery .thumbnail:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center; 
+    padding: 20px;
+}
+
+/* ----------   Media Query  ----------- */
+
+@media (min-width: 768px) {
+
+    .photo-gallery {
+        max-width: 1080px; 
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .photo-gallery img {
+       margin: 15px;
+    }
+
+}
+
