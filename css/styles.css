@@ -13,16 +13,38 @@ h1 {
     margin: 30px 0 50px;
 }
 
+/* ----------   Input field  ----------- */
+
 .search-wrapper {
     text-align: center;
     padding-bottom: 20px;
 }
+
+input {
+    width: 70%;
+    max-width: 460px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #b4b2b2;
+    box-shadow: inset 3px 3px 5px rgba(0, 7, 36, 0.150);
+}
+
+input:hover {
+    border: 2px solid #344dd6d5;
+}
+
+input::placeholder {
+    opacity: .5;
+}
+
+/* ----------   Photo Gallery  ----------- */
 
 .photo-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(240, 244, 246);
+    border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -34,6 +56,15 @@ h1 {
     padding: 10px;
 }
 
+.lb-data .lb-caption {
+    font-size: 15px;
+    font-style: normal;
+}
+
+.lb-dataContainer {
+    padding-top: 14px;
+}
+
 .photo-gallery .thumbnail {
     transition: .5s;
 }
@@ -41,6 +72,8 @@ h1 {
 .photo-gallery .thumbnail:hover {
     transform: scale(1.1);
 }
+
+/* ----------   Footer  ----------- */
 
 footer {
     text-align: center; 
@@ -60,8 +93,8 @@ footer {
     .photo-gallery img {
        margin: 15px;
     }
-
-    
-
+    .lb-data .lb-caption {
+        font-size: 20px;
+    }
 }
 

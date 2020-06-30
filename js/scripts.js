@@ -2,7 +2,8 @@
 
 lightbox.option({
     showImageNumberLabel: false,
-    wrapAround: true
+    wrapAround: true,
+    disableScrolling: true
 })
 
 // search field
