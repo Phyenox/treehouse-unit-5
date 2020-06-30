@@ -13,8 +13,9 @@ h1 {
     margin: 30px 0 50px;
 }
 
-.input {
-    display: inline-block;
+.search-wrapper {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .photo-gallery {
@@ -43,7 +44,8 @@ h1 {
 
 footer {
     text-align: center; 
-    padding: 20px;
+    padding: 30px;
+    color: grey;
 }
 
 /* ----------   Media Query  ----------- */
@@ -58,6 +60,8 @@ footer {
     .photo-gallery img {
        margin: 15px;
     }
+
+    
 
 }
 
